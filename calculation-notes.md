@@ -1,0 +1,3 @@
+Power is calculated using the `power.t.test` function in R with `type = "paired"`. The 'power' for the imaginary interaction is calculated as P1\*(1-P2) in the absence of HARKing and as P1\*(1-P2)+P2\*(1-P1) under HARKing. The first term is the probability of detecting nested effect 1 (A-B) but not nested effect 2 (C-D), consistent with the original hypothesis, while the second term also allows for the opposite pattern.
+
+Note that power cannot fall below the predefined alpha value (assumed to be .05 here). If the true difference is zero, power is undefined. The illusory power for the imaginary interaction can fall to near zero under certain conditions because it is not tied to a valid statistical test, and thus not tied to an alpha level.
