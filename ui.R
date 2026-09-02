@@ -1,6 +1,7 @@
 library(shiny)
 library(bslib)
 library(plotly)
+library(markdown)
 
 # Define UI
 shinyUI(fluidPage(
