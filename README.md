@@ -2,7 +2,7 @@
 
 An interactive Shiny app that demonstrates a subtle but common statistical mistake in experiments with a 2×2 design.
 
-**Live app:** https://dpaape.shinyapps.io/ipower/
+**Live app:** https://dpaape.shinyapps.io/illusory_power/
 
 ## The problem
 
