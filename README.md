@@ -1,6 +1,6 @@
 # Illusory Power for Imaginary Interactions
 
-An interactive Shiny app that demonstrates a subtle but common statistical mistake in experiments with a 2×2 design.
+An interactive Shiny app that demonstrates a common statistical mistake in experiments with a 2×2 design.
 
 **Live app:** https://dpaape.shinyapps.io/illusory_power/
 
@@ -18,7 +18,7 @@ This shortcut is wrong: "significant" vs. "not significant" is not itself a sign
   - statistical power for each of the two nested effects
   - power for the real interaction
   - the inflated "power" for the spurious, incorrectly-tested interaction (with and without HARKing)
-- A 3D plot shows the relationship between real power and this illusory power — it forms a saddle shape, and the false-positive rate is worst exactly when power is high for one nested effect and low for the other.
+- A 3D plot shows the relationship between real power and this illusory power: it forms a saddle shape, and the false-positive rate is worst exactly when power is high for one nested effect and low for the other.
 
 ## Background
 
@@ -26,4 +26,4 @@ Built alongside a poster (Paape & Vasishth, AMLaP 2019) making the same argument
 
 ## Files
 
-- `ui.R` / `server.R` — Shiny app source
+- `ui.R` / `server.R`: Shiny app source
